@@ -1,0 +1,33 @@
+{
+	"name": "stefna/remote-authentication-contracts",
+	"description": "",
+	"type": "library",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andreas Sundqvist",
+			"email": "andreas@stefna.is"
+		}
+	],
+	"require": {
+		"php": "^7.1 || ^8.0",
+		"ext-json": "*",
+		"sunkan/enum": "^1.4.0",
+		"ramsey/uuid": "^4.1",
+		"stefna/ssn-lookup-contracts": "^1.2"
+	},
+	"require-dev": {
+		"stefna/codestyle": "^1.5",
+		"phpstan/phpstan": "^0.12.62"
+	},
+	"autoload": {
+		"psr-4": {
+			"Stefna\\RemoteAuthContract\\": "src/"
+		}
+	},
+	"config": {
+		"platform-check": false
+	}
+}
