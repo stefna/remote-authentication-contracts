@@ -10,6 +10,7 @@ use Sunkan\Enum\EnumClass;
  * @method static AuthenticateStatus TIMEOUT()
  * @method static AuthenticateStatus ACCOUNT_NOT_FOUND()
  * @method static AuthenticateStatus PENDING()
+ * @method static AuthenticateStatus CANCELLED()
  * @method static AuthenticateStatus UNKNOWN()
  */
 final class AuthenticateStatus extends EnumClass
@@ -19,5 +20,6 @@ final class AuthenticateStatus extends EnumClass
 	public const TIMEOUT = 'timeout';
 	public const ACCOUNT_NOT_FOUND = 'account-not-found';
 	public const PENDING = 'pending';
+	public const CANCELLED = 'cancelled';
 	public const UNKNOWN = 'unknown';
 }
