@@ -16,7 +16,7 @@
 		"ext-json": "*",
 		"sunkan/enum": "^1.4.0",
 		"ramsey/uuid": "^4.1",
-		"stefna/ssn-lookup-contracts": "^1.2"
+		"stefna/ssn-lookup-contracts": "^2.0"
 	},
 	"require-dev": {
 		"stefna/codestyle": "^1.5",

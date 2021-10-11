@@ -3,8 +3,8 @@
 namespace Stefna\RemoteAuthContract\Entities;
 
 use Ramsey\Uuid\UuidInterface;
+use Stefna\PersonContract\Values\Ssn;
 use Stefna\RemoteAuthContract\Enums\AuthenticateStatus;
-use Stefna\SsnLookup\Values\Ssn;
 
 interface AuthenticateResponse
 {
